@@ -9,3 +9,5 @@ Ogni elemento del todo sarà composto da 3 parti:
 3. una X per eliminare la riga
 
 Sarà necessario anche aggiungere un input testuale con un bottone, il quale aggiungerà una nuova riga todo
+
+![screenshot](/img/screenshot.png)
