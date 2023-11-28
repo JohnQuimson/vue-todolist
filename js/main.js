@@ -1,12 +1,12 @@
 'use strict';
 
-const { createApp, ref } = Vue;
+const { createApp } = Vue;
 
 createApp({
-  setup() {
-    const message = ref('Hello vue!');
+  data() {
     return {
-      message,
+      tasks: ['imparare Vue', 'Fare il ToDo list', 'Fare la spesa'],
     };
   },
+  methods() {},
 }).mount('#app');
