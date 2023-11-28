@@ -16,9 +16,18 @@ createApp({
   methods: {
     addTask() {
       if (this.newTask.trim() !== '') {
-        this.tasks.push(this.newTask);
+        this.tasks.push({
+          todo: this.newTask,
+          stato: false,
+        });
         this.newTask = '';
       }
+    },
+    addLineThrough(task) {
+      task.stato = !task.stato;
+    },
+    removeTask(index) {
+      this.tasks.splice(index, 1);
     },
   },
 }).mount('#app');
