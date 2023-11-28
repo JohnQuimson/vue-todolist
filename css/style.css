@@ -11,3 +11,27 @@ input:focus {
 .done {
   text-decoration: line-through;
 }
+
+.form-check-input:hover {
+  cursor: pointer;
+}
+
+.span-todo:hover {
+  cursor: pointer;
+}
+
+.remove-element {
+  height: 20px;
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: rgb(248, 122, 122);
+  color: white;
+}
+
+.remove-element:hover {
+  background-color: rgb(189, 14, 14);
+  cursor: pointer;
+}
