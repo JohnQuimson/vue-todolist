@@ -5,7 +5,11 @@ const { createApp } = Vue;
 createApp({
   data() {
     return {
-      tasks: ['imparare Vue', 'Fare il ToDo list', 'Fare la spesa'],
+      tasks: [
+        { todo: 'imparare Vue', stato: false },
+        { todo: 'Fare il ToDo list', stato: true },
+        { todo: 'Fare la spesa', stato: false },
+      ],
       newTask: '',
     };
   },

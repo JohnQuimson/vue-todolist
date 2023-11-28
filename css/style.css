@@ -1,3 +1,11 @@
 body {
   font-family: 'Nova Square', sans-serif;
 }
+
+input:focus {
+  border: none;
+}
+
+.done {
+  text-decoration: line-through;
+}
